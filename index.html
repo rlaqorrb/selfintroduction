@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <title>자기소개 웹</title>
+</head>
+<body>
+
+  <div class="container" style="top: 0vh;">
+    <div class="nav">
+      <div class="dots">
+        <a class="dot selected" href="#">
+          <span>Home</span>
+        </a>
+        <a class="dot" href="#">
+          <span>About</span>
+        </a>
+        <a class="dot" href="#">
+          <span>Favorite</span>
+        </a>
+        <!-- <a class="dot" href="#">
+          <span>Hobby</span>
+        </a> -->
+        <a class="dot" href="#">
+          <span>Dev</span>
+        </a>
+      </div>
+    </div>
+    <div class="content">
+
+      <div class="intro" id="intro">
+        <div class="middle_box_intro">
+          <h1>Hello World!</h1>
+          <p>안녕하세요. 컴퓨터인공지능공학부 24학번 김백규 입니다.</p>
+        </div>
+        <div class="scroll_indicator">
+          <span><div class="scroll_indicator_dot"></div></span>
+          <p>스크롤하여 계속</p>
+        </div>
+      </div>
+
+      <div class="about" id="about">
+        <div class="top_box_about">
+          <div>
+            <p>About me</p>
+          </div>
+        </div>
+        <div class="middle_box_about">
+          <div class="middleL_box_about">
+            <div class="middleL_box_about_img">
+              <img src="img/personicon1.png" alt="" width="300px" height="300px">
+            </div>
+          </div>
+          <div class="middleR_box_about">
+            <div class="name">이름 : 김백규</div>
+            <div class="birthday">생일 : 2005/05/14</div>
+            <div class="major">학과 : 컴퓨터인공지능공학부</div>
+            <div class="living">사는곳 : 양산시 (통학 왕복 3시간)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="favorite" id="favorite">
+        <div class="favorite_title">
+          <p>Favorite things</p>
+          <p>제가 좋아하는 것은..</p>
+        </div>
+        <div class="favorite_container">
+          <div class="favorite1">
+            <div class="favorite_img"><img src="img/game2.png" alt=""></div>
+            <p class="favorite_img_title">
+              게임
+            </p>
+            <p>110개 이상의 게임을 보유하고 플레이 할 정도로 게임을 좋아해요.</p>
+          </div>
+          <div class="favorite2">
+            <div class="favorite_img"><img src="img/sleep1.png" alt=""></div>
+            <p class="favorite_img_title">잠</p>
+            <p>어떤 날에는 하루 20시간 이상을 잘 정도로 잠 자는 것을 좋아해요.</p>
+          </div>
+          <div class="favorite3">
+            <div class="favorite_img"><img src="img/coding1.png" alt=""></div>
+            <p class="favorite_img_title">코딩</p>
+            <p>중학생 때부터 코딩에 관심을 가져서 지금까지 다양한 프로그래밍 언어와 프로그램을 공부해 왔어요.</p>
+          </div>
+        </div>
+      </div>
+<!--  <div class="hobby" id="hobby">
+
+      </div> -->
+
+      <div class="dev" id="dev">
+
+        <div class="dev_sidebar">
+          <div class="dev_sidebar_dot">
+            <span class="dev_sidebar_dots"></span>
+          </div>
+          <div class="dev_sidebar_dot">
+            <span class="dev_sidebar_dots"></span>
+          </div>
+          <div class="dev_sidebar_dot">
+            <span class="dev_sidebar_dots"></span>
+          </div>
+          <div class="dev_sidebar_dot">
+            <span class="dev_sidebar_dots"></span>
+          </div>
+          <div class="dev_sidebar_dot">
+            <span class="dev_sidebar_dots"></span>
+          </div>
+        </div>
+        <div class="dev_program">
+          <div class="dev_programs">
+            <p class="dev_programTitle">C</p>
+            <p class="dev_programDes">C는 제가 처음 접한 프로그래밍 언어이자 제일 처음 포기한 언어였어요. <br>결국 대학에 와서 다시 공부하게 되었지만..</p>
+          </div>
+          <div class="dev_programs">
+            <p class="dev_programTitle">HTML/CSS/JS</p>
+            <p class="dev_programDes">C를 포기하고 시작한게 웹 프로그래밍이었어요.<br>C와 다르게 쉬운 문법과 직관성을 가졌다는 매력에 빠져 중고등학교 4년동안은 웹프로그래밍을 주로 공부했어요.</p>
+          </div>
+          <div class="dev_programs">
+            <p class="dev_programTitle">Python</p>
+            <p class="dev_programDes">고등학생때가 되어서 Python을 공부하게 되었어요. <br>웹 프로그래밍을 하면서 Python을 사용하는 경우가 생겨 접하게 됐는데 생각보다 쉬운 문법과 좋은 직관성 덕분에 쉽게 공부할 수 있었어요.</p>
+          </div>
+          <div class="dev_programs">
+            <p class="dev_programTitle">UnrealEngine5</p>
+            <p class="dev_programDes">UnrealEngine5는 유명한 게임 엔진 중 하나에요. <br>UnrealEngine5는 C++을 사용했는데 BluePrint라는 기능 덕분에 C++을 몰라도 게임을 개발할 수 있었어요.</p>
+          </div>
+          <div class="dev_programs">
+            <p class="dev_programTitle">Hacking</p>
+            <p class="dev_programDes">대학을 들어와서 동아리를 찾아보는데 해킹/정보보안 동아리가 있었어요. <br>안그래도 웹 서버/데이터베이스 공부하면서 보안에 관심을 가지게 되어 지원하여 해킹 공부를 시작했는데 <br>생각보다 어려워 잠시 포기한 상태에요.</p>
+          </div>
+          <!-- <div class="dev_programTitile"></div>
+          <div class="dev_programDescription"></div> -->
+        </div>
+        <div class="dev_timeline">
+          <div class="dev_times">2019~2020/2024.03~</div>
+          <div class="dev_times">2020~</div>
+          <div class="dev_times">2022~</div>
+          <div class="dev_times">2024.01~</div>
+          <div class="dev_times">2024.03~2024.08</div>
+        </div>
+        <div class="dev_title">
+          <p>My Dev Timeline</p>
+        </div>
+
+        <!-- 1. C
+        2. HTML/CSS/JS
+        3. PYTHON
+        4. UnrealEngine5
+        5. Hacking
+      </div> -->
+
+      <!-- <div class="goal" id="goal">
+        목표
+      </div> -->
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script>
+
+    
+    let page = 0
+    console.log(page)
+
+
+    $('.dot').on('click', function(e){
+      let num = $('a').index(this)
+      console.log(num)
+      $(`.dot`).removeClass("selected")
+      $(`.dot:nth-child(${num+1})`).addClass("selected")
+      page = num*100*-1
+      console.log('페이지: ' + page)
+      $('.container').css("top",`${page}vh`)
+    })
+
+    $(window).on('wheel',function(e){
+      delta = e.originalEvent.wheelDelta
+      console.log(e.originalEvent.wheelDelta)
+      if (delta>0 && page<0){
+        page += 100
+        n = (page/100)*-1+1
+        console.log(n)
+        console.log('페이지: ' + page)
+        $(`.dot`).removeClass("selected")
+        $(`.dot:nth-child(${n})`).addClass("selected")
+        $('.container').css("top",`${page}vh`)
+      } else if (delta<0 && page>-300) {
+        page -= 100
+        n = (page/100)*-1
+        console.log(n)
+        console.log('페이지: ' + page)
+        $(`.dot`).removeClass("selected")
+        $(`.dot:nth-child(${n+1})`).addClass("selected")
+        $('.container').css("top",`${page}vh`)
+      }
+    })
+
+    // $('.dot').on('click', function(e){
+    //   if(page == -100){
+    //     console.log(page)
+    //     $(`.middle_box_about`).delay(800).addClass('middle_box_about_ani').delay(800).queue(function(){
+    //       $(this).removeClass("middle_box_about_ani").dequeue()
+    //     })
+    //   }
+    // })
+
+    // $(window).on('wheel', function(e){
+    //   if(page == -100){
+    //     console.log(page)
+    //     $(`.middle_box_about`).delay(800).addClass('middle_box_about_ani').delay(800).queue(function(){
+    //       $(this).removeClass("middle_box_about_ani").dequeue()
+    //     })
+    //   }
+    // })
+
+
+  </script>
+
+</body>
+</html>
